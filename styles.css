@@ -1,0 +1,51 @@
+*, *::after, *::before {
+    margin: 0;
+}
+
+
+.intro-content {
+    display: flex;
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    height: 100vh
+}
+
+.intro-content-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-content-image {
+    background-image: url("imgs/landscape.jpg");
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.project-content {
+    display:flex;
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+}
+
+.project-content-text {
+    width: 65%
+}
+
+.project-content-image {
+    width: 35%;
+    height: 70vh;
+    background-image: url("imgs/flower.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#llv-content {
+    flex-direction: row-reverse;
+}
+
+h1 {
+    font-size: 40px;
+}
