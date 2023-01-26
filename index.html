@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/4db7ac9830.js" crossorigin="anonymous"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
 	</head>
 	<body>
@@ -14,7 +14,7 @@
 					<section class="intro-content">
 						<div class="intro-content-text">
 							<h1>My Portfolio</h1>
-							<p>Maybe Info about myself here</p>
+							<p>Hey I'm Andy and I am a full stack software developer!</p>
                             <button class="button" id="see-project-button">My Work</button>
 						</div>
 						<div id="intro-content-image"></div>
@@ -23,9 +23,12 @@
 				<!-- Project Display #1 -->
 					<section class="project-content" id="llv-content">
 						<div class="project-content-text" id="llv-content-text">
-							<h2>Project #1</h2>
-							<p>Project Description</p>
-							<button class="button">"See Code" or "Learn More"</button>
+							<h2>Linked List Visualizer</h2>
+							<p>Project Description / Why I Built it / Tech Stack Used</p>
+							<div class=buttons>
+								<button class="button">Live Site</button>
+								<button class="icon-button"><i class="fa fa-github"></i></button>
+							</div>
 						</div>
 						<div class="project-content-image" id="llv-content-image"></div>
 						</section>
@@ -35,7 +38,10 @@
 						<div class="project-content-text">
 							<h2>Project #2</h2>
 							<p>Project Description</p>
-							<button class="button">"See Code" or "Learn More"</button>
+							<div class=buttons>
+								<button class="button">Live Site</button>
+								<button class="icon-button"><i class="fa fa-github"></i></button>
+							</div>
 						</div>
 						<div class="project-content-image"></div>
 					</section>
@@ -56,21 +62,17 @@
 							<h2>Contact Me</h2>
 							<form method="post" action="">
 								<div class="fields">
-									<div class="field half">
-										<label for="name">First Name</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-                                    <div class="field half">
-										<label for="name">Last Name</label>
-										<input type="text" name="name" id="name" value="" />
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="input-name" value="" />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
+										<input type="email" name="email" id="input-email" value="" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
+										<textarea name="message" id="input-message" rows="6"></textarea>
 									</div>
 								</div>
 								<button class="button">Submit</button>
