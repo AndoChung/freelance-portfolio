@@ -23,6 +23,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    animation: 1s infinite fadein;
 }
 
 .project-content {
@@ -135,4 +136,13 @@ label {
 #input-message {
     align-self: flex-start;
     margin: 0 0 40px 80px;
+}
+
+@keyframes fadein {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 300px;
+    }
 }
